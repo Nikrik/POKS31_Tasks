@@ -1,7 +1,7 @@
 using namespace std;
 #include <iostream>
 #include <math.h>
-#include<cmath>
+#include <cmath>
 long double fact(int x)
 {
     long double f=1;
@@ -22,7 +22,7 @@ public:
         for (int n = 0; n < acc+1; n++)
         {
             //summ+=((-1)^n*x^(2n))/(2n+1)!
-            summ+=(pow(-1,n)*pow(x,2*n))/fact(2*n+1);
+            summ+=(pow(-1,n)*pow(x,2*n))/fact(2*n);
         }
         return summ;
     }
@@ -40,6 +40,7 @@ public:
 
 int main()
 {
-    Cosclass cos1(1.5,20);
+    Cosclass cos1(2,20);
     cout<<cos1.calc();
+    cout<<cos(1);
 }
