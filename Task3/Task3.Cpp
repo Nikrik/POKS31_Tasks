@@ -57,5 +57,4 @@ int main()
     Expclass exp1(x,acc);
     cout<<exp1.calc()<<endl;
     cout<<exp(x)<<endl;//для проверки использую функцию exp
-    cout<<"что то";
 }
