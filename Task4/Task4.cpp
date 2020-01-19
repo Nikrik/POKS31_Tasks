@@ -6,7 +6,6 @@ using namespace std;
 class Factclass
 {
 public:
-    int acc;//точность вычислений
     double x;//значение
     long double calc()
     {
@@ -24,7 +23,6 @@ public:
 
     Factclass()
     {
-        acc=0;
         x=0;
     }
     Factclass(double x)
