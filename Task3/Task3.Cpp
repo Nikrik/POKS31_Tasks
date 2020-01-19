@@ -48,7 +48,7 @@ public:
 
 int main()
 {
-    cout<<"Введите угол в радианах\n";
+    cout<<"Введите число\n";
     double x;
     cin>>x;
     cout<<"Введите точность\n";
