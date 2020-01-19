@@ -10,7 +10,7 @@ long double fact(int x)
     {
         f*=i;
     }
-        return f;
+    return f;
 }
 
 class Expclass
